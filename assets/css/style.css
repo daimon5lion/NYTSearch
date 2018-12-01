@@ -1,0 +1,7 @@
+#inputdiv,
+#outputdiv {
+  border-width: 2px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 3px;
+}

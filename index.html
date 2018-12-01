@@ -24,7 +24,9 @@
     <div class="container">
       <div class="row">
         <div class="jumbotron"><h2>New York Times Search</h2></div>
-        <div>
+
+        <div id="inputdiv">
+          <h4>Search Parameters</h4>
           <form>
             <div class="form-group">
               <label for="formGroupExampleInput">Search Term</label>
@@ -49,15 +51,31 @@
                 type="number"
                 class="form-control"
                 id="startyear"
-                placeholder="Type your search"
+                placeholder="Type Year"
               />
               <label for="formGroupExampleInput">End Year (Optional)</label>
               <input
-                type="number"
+                type="year"
                 class="form-control"
                 id="endyear"
-                placeholder="Type your search"
+                placeholder="Type Year"
               />
+              <input
+                id="searchb"
+                class="btn btn-primary"
+                type="submit"
+                value="Search"
+              />
+              <input
+                id="clearb"
+                class="btn btn-primary"
+                type="submit"
+                value="Clear Results"
+              />
+            </div>
+            <div id="outputdiv"><h4>Top Articles</h4></div>
+            <div id = "results">
+
             </div>
           </form>
         </div>
